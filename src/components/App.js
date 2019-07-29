@@ -11,9 +11,6 @@ class App extends Component{
       <div className= "projectCollection">
         <Nav />
         <div className= "project">
-          < Project />
-        </div>
-        <div className= "project">
           <Project />  
         </div>
         
