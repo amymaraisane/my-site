@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
-export class Nav extends Component {
+class Nav extends Component {
     render() {
         return (
-            <div>
-                <h1>Amy Maraisane</h1>
-            </div>
+            <header>
+                <h2>Amy Maraisane</h2>
+            </header>
         )
     }
 }
