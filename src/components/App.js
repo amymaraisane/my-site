@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Project from './Project';
-import '../stylesheets/index.css';
+import ProjectList from './ProjectList';
+import '../stylesheets/app.css';
 import Nav from './Nav';
 
 class App extends Component{
@@ -10,14 +11,8 @@ class App extends Component{
     return (
       <div className= "projectCollection">
         <Nav />
-        <div className= "project">
-          <Project />  
-        </div>
-        
-        <div>
-          <p>Box2</p>
-        </div>
-      </div>
+        <ProjectList />
+      </div> 
       );
   }
 }

@@ -5,8 +5,10 @@ header {
     align-items: center;
     color: white;
     padding: 0 15px;
+    width: 100%;
+    height: 3rem;
 }
 
-header h1 {
+header h2 {
     text-align: center;
-}
+} 
