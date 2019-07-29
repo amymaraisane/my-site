@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .name {
   font-size: 3em;
   margin: .25em;
@@ -5,9 +10,8 @@
 .card {
   font-family:  Helvetica, Arial, sans-serif;
   background-color: #797878;
-  margin: 10px;
+  margin: 0;
   padding: 10px;
-  border-radius: 10px;
   border: 2px solid rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
@@ -15,6 +19,6 @@
   align-items: center;
 }
 .card img {
-  width: 100px;
+  max-width: 100%;
   padding: 4px 20px 10px 20px;
 }

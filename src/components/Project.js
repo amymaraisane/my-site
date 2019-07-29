@@ -1,24 +1,37 @@
-import React, {Component} from 'react';
-import SiteData from './SiteData';
-import '../project.css';
-import PropTypes from 'prop-types'
+import React, { Component } from 'react';
+import '../stylesheets/project.css';
+import Description from './Description'; 
+
+export default class Project extends Component{
 
 
-class Project extends Component{
   render(){
-    //css instructions added as a variable pointing to a style object written in jsx!
+    const imgStyle = {width:'500px', height:'400px'};
+    const h2Style = {color: "rgb(50, 0, 255)", fontSize: '2em', margin: '0'};
+
+    //shorthand for title = this.props.title
+    const {title, img, alt} = this.props.projects;
+    
+    //use parens with map for one line return statement, then dont need return keyword
+    //assign result of map logic to a variable, also reduces 'this' keyword confusion
+
     return (
-          <SiteData title="Music Forum" 
-                    img= "/imgs/forum-landingpage.png" 
-                    alt= "Music Forum Landing Page showing record player"
-                    about = {["Built with Node, Express, and MongoDB", "97% lighthouse best practices"]}
-          />
-      );
+      //any jsx elements that are returned must be wrapped into one div, cant return multiple
+      <div className="card">
+        <h2 className="name" style={{fontFamily: 'Permanent Marker'}}>{title}</h2>
+        <img style={imgStyle} src= {img}
+        alt={alt} />
+        <h5 style={h2Style}>About:</h5>
+        <Description about= {this.props.about} />
+      </div>
+    );
   }
 }
 
-Project.propTypes = {
+//IMPORTANT- when using an array method, each item in the array must be assigned a unique key for React's rendering
+//in this case we'll just use the index but keep in mind this is not good practice if array may change
 
-}
+//cannot return multiple componenents next to each other, must put inside of one DOM element
+//return ReactDOMFactories.div(null, h2, img);
 
-export default Project;
+
