@@ -18,7 +18,10 @@ class ProjectList extends Component {
     }
 
     static propTypes = {
-        projects: PropTypes.arrayOf(PropTypes.objects)
+        title: PropTypes.string.isRequired,
+        img: PropTypes.string.isRequired,
+        alt: PropTypes.string.isRequired
+        // about: PropTypes.arrayOf(PropTypes.string).isRequired
     }
 
     render() {
