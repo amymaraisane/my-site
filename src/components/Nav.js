@@ -5,7 +5,12 @@ class Nav extends Component {
     render() {
         return (
             <header>
-                <h2>Amy Maraisane</h2>
+                <h2>AM</h2>
+                <nav>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </nav>
             </header>
         )
     }
