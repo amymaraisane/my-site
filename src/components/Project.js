@@ -9,10 +9,9 @@ export default class Project extends Component{
     const about = this.props.about.map((item, index)=>(
       <li key={index}>{item}</li>
     ));
-    debugger;
   
     return (
-      <div className="card">
+      <div className="demo">
         <img src= {img} alt={alt} />
         <h2 className="name" style={{fontFamily: 'Permanent Marker'}}>{title}</h2>
         <ul>

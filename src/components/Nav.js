@@ -7,8 +7,8 @@ class Nav extends Component {
             <header>
                 <h2>AM</h2>
                 <nav>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#project-list">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </nav>
             </header>

@@ -35,7 +35,7 @@ class ProjectList extends Component {
           < Project key={index} {...p} />
         ));
         return (
-            <div className="project-list">
+            <div id="project-list">
                 {projects};
             </div>
         )

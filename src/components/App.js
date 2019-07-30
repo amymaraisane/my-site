@@ -3,6 +3,7 @@ import Project from './Project';
 import ProjectList from './ProjectList';
 import '../stylesheets/app.css';
 import Nav from './Nav';
+import Bio from './Bio';
 
 class App extends Component{
 
@@ -11,6 +12,7 @@ class App extends Component{
     return (
       <div className= "projectCollection">
         <Nav />
+        <Bio />
         <ProjectList />
       </div> 
       );
