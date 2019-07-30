@@ -41,7 +41,3 @@ header nav li:first-child {
 header nav li:last-child {
     margin-right: 60px;
 }
-
-header nav li .selected {
-    color: blue;
-}

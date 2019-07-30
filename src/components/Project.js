@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
 import '../stylesheets/project.css';
+import PropTypes from 'prop-types';
  
 
 export default class Project extends Component{
+  static propTypes = {
+    title: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    alt: PropTypes.string.isRequired,
+    about: PropTypes.arrayOf(PropTypes.string).isRequired
+}
 
   render(){
     const {title, img, alt} = this.props;

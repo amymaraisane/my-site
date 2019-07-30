@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Project from './Project';
 import ProjectList from './ProjectList';
 import '../stylesheets/app.css';
 import Nav from './Nav';
