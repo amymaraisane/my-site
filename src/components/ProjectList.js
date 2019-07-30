@@ -16,6 +16,9 @@ class ProjectList extends Component {
             alt: "Red Netflix Watchlist logo"
         }]
     }
+    static propTypes = {
+        projects: PropTypes.arrayOf(PropTypes.object)
+    }
 
     static propTypes = {
         title: PropTypes.string.isRequired,
@@ -28,15 +31,7 @@ class ProjectList extends Component {
         const about = ["Built with Node, Express, and MongoDB", "97% lighthouse best practices"];
         
         const projects = this.props.projects.map(p=>(
-            <div className="card">
-                <img src= {p.img} alt={p.alt} />
-                <h2 className="name" style={{fontFamily: 'Permanent Marker'}}>{p.title}</h2>
-                <ul>
-                    {about.map((item, index)=>(
-                        <li key={index}>{item}</li>
-                    ))}
-                </ul>
-            </div>
+          < Project {...p} about = {about} />
         ));
         return (
             <div className="project-list">
@@ -50,3 +45,5 @@ export default ProjectList
 
 
 //put {this.props.projets} in curly braces if its from another page. since defined on this page, dont need 
+
+//return the list of jsx elements inside of a div
