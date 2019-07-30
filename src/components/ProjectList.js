@@ -6,20 +6,23 @@ import PropTypes from 'prop-types';
 class ProjectList extends Component {
     static defaultProps = {
         projects: [{
+            about: ["Uses Node.js, Express, and MongoDB", "97 Lighthouse Performance Rating"],
             title: "Music Forum",
             img: "/imgs/forum-landingpage.png",
             alt: "Music Forum Landing Page showing record player"
+            
         }, 
         {
+            about: ["Node.js, Express, and MongoDB", "Custom JSON API and RESTful routing"],
             title: "Netflix Watchlist",
             img: "/imgs/netflix-watchlist.png",
-            alt: "Red Netflix Watchlist logo" 
+            alt: "Red Netflix Watchlist logo", 
         }]
     }
     static propTypes = {
         projects: PropTypes.arrayOf(PropTypes.object)
     }
-
+ 
     static propTypes = {
         title: PropTypes.string.isRequired,
         img: PropTypes.string.isRequired,
@@ -28,10 +31,8 @@ class ProjectList extends Component {
     }
 
     render() {
-        const about = ["Built with Node, Express, and MongoDB", "97% lighthouse best practices"];
-        
-        const projects = this.props.projects.map(p=>(
-          < Project {...p} about = {about} />
+        const projects = this.props.projects.map((p, index)=>(
+          < Project key={index} {...p} />
         ));
         return (
             <div className="project-list">
@@ -43,7 +44,5 @@ class ProjectList extends Component {
 
 export default ProjectList
 
-
-//put {this.props.projets} in curly braces if its from another page. since defined on this page, dont need 
 
 //return the list of jsx elements inside of a div

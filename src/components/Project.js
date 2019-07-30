@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
 import '../stylesheets/project.css';
-import ProjectList from './ProjectList';
  
 
 export default class Project extends Component{
 
   render(){
-    const {title, img, alt, about} = this.props;
+    const {title, img, alt} = this.props;
+    const about = this.props.about.map((item, index)=>(
+      <li key={index}>{item}</li>
+    ));
+    debugger;
   
     return (
       <div className="card">
         <img src= {img} alt={alt} />
         <h2 className="name" style={{fontFamily: 'Permanent Marker'}}>{title}</h2>
         <ul>
-            {about.map((item, index)=>(
-                <li key={index}>{item}</li>
-            ))}
+          {about}
         </ul>
     </div>
     );
