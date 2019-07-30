@@ -1,0 +1,10 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+}
+
+#contact h1 {
+    margin: 0 auto;
+}

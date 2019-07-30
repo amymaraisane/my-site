@@ -5,6 +5,8 @@ header {
     padding: 0;
     width: 100%;
     height: 4rem;
+    position: fixed;
+    background-color: rgb(250,250,250);
 }
 
 header h2 {
@@ -38,4 +40,8 @@ header nav li:first-child {
 
 header nav li:last-child {
     margin-right: 60px;
+}
+
+header nav li .selected {
+    color: blue;
 }

@@ -2,7 +2,7 @@
     
 }
 @media (max-width: 580px){
-    .recipe-list {
-        display: block;
+    #project-list{
+        width: 100%
     }
 }
