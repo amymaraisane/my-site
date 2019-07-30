@@ -6,13 +6,14 @@ import ProjectList from './ProjectList';
 export default class Project extends Component{
 
   render(){
-
+    const {title, img, alt, about} = this.props;
+  
     return (
       <div className="card">
-        <img src= {this.props.img} alt={this.props.alt} />
-        <h2 className="name" style={{fontFamily: 'Permanent Marker'}}>{this.props.title}</h2>
+        <img src= {img} alt={alt} />
+        <h2 className="name" style={{fontFamily: 'Permanent Marker'}}>{title}</h2>
         <ul>
-            {this.props.about.map((item, index)=>(
+            {about.map((item, index)=>(
                 <li key={index}>{item}</li>
             ))}
         </ul>

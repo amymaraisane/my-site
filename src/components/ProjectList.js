@@ -13,7 +13,7 @@ class ProjectList extends Component {
         {
             title: "Netflix Watchlist",
             img: "/imgs/netflix-watchlist.png",
-            alt: "Red Netflix Watchlist logo"
+            alt: "Red Netflix Watchlist logo" 
         }]
     }
     static propTypes = {
