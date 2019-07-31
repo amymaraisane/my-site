@@ -19,7 +19,7 @@ export class FadeIn extends Component {
         if (this._ismounted) {
             this.setState({ loaded: true});
         }
-    }
+    } 
 
     componentDidMount() {
         var imgTag = this.refs.img;

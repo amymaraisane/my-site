@@ -17,10 +17,45 @@
     height: 12rem;
     margin: 0;
     padding: 0;
-    opacity: 0; 
-    transition: opacity 0.3s;
+    animation: fadeIn 3s ease-in;
 }
 
-.img-loaded { 
-    opacity: 1; 
+.imageGrid #img1 {
+    animation-delay: .25s;
+}
+.imageGrid #img2 {
+    animation-delay: 1.75s;
+}
+.imageGrid #img3 {
+    animation-delay: 1.25s;
+}
+.imageGrid #img4 {
+    animation-delay: .75s;
+}
+.imageGrid #img5 {
+    animation-delay: 1.5s;
+}
+.imageGrid #img6 {
+    animation-delay: 2.75s;
+}
+.imageGrid #img7 {
+    animation-delay: 1s;
+}
+.imageGrid #img8 {
+    animation-delay: 2.25s;
+}
+
+@keyframes fadeIn { 
+    0% { 
+        opacity: 0; 
+        animation-timing-function: ease-in;
+    }
+    50% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
 }
