@@ -1,6 +1,5 @@
 .bio {
     display: flex;
-    /* Height and width fallback for older browsers. */
     height: 100%;
     width: 100%;
     height: 100vh;
@@ -11,7 +10,6 @@
 
 .imageGrid {
     margin: 8rem auto;
-    
 }
 
 .imageGrid img {
@@ -19,4 +17,10 @@
     height: 12rem;
     margin: 0;
     padding: 0;
+    opacity: 0; 
+    transition: opacity 0.3s;
+}
+
+.img-loaded { 
+    opacity: 1; 
 }
