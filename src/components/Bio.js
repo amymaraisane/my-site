@@ -8,7 +8,7 @@ export class Bio extends Component {
 
         setTimeout(()=>{
             this.setState({ visibility: "visible" })
-        }, 3000);
+        }, 1400);
     }
 
     render() {
@@ -26,6 +26,14 @@ export class Bio extends Component {
                             <div className="col-sm-3"><img style = {{ visibility: this.state.visibility}} id="img6" alt="graffiti" src="/imgs/graffiti.jpeg"></img></div>
                             <div className="col-sm-3"><img style = {{ visibility: this.state.visibility}} id="img7" alt="techy" src="/imgs/techy.jpeg"></img></div>
                             <div className="col-sm-3"><img style = {{ visibility: this.state.visibility}} id="img8" alt="trees" src="/imgs/trees.jpeg"></img></div>
+                        </div>
+                        <div class="slogan">
+                            <div class= "row">
+                                <p style = {{ visibility: this.state.visibility}}>Build Your Dream
+                                    <span> {"\n"}amy.maraisane@gmail.com</span>
+                                
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

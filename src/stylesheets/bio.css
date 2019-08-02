@@ -17,32 +17,49 @@
     height: 12rem;
     margin: 0;
     padding: 0;
-    animation: fadeIn 3s ease-in;
+    animation: fadeIn 2s ease-in;
 }
 
 .imageGrid #img1 {
-    animation-delay: .25s;
+    animation-delay: .1s;
 }
 .imageGrid #img2 {
-    animation-delay: 1.75s;
+    animation-delay: .5s;
 }
 .imageGrid #img3 {
-    animation-delay: 1.25s;
+    animation-delay: .7s;
 }
 .imageGrid #img4 {
-    animation-delay: .75s;
+    animation-delay: 1.2s;
 }
 .imageGrid #img5 {
-    animation-delay: 1.5s;
-}
-.imageGrid #img6 {
-    animation-delay: 2.75s;
-}
-.imageGrid #img7 {
     animation-delay: 1s;
 }
+.imageGrid #img6 {
+    animation-delay: .9s;
+}
+.imageGrid #img7 {
+    animation-delay: .3s;
+}
 .imageGrid #img8 {
-    animation-delay: 2.25s;
+    animation-delay: .8s;
+}
+
+.slogan {
+    margin-right: 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 10rem;
+    display: flex;
+    justify-content: flex-end;
+    animation: fadeIn 1s ease-in;
+}
+
+.slogan span {
+    font-size: 1rem;
+    font-weight: normal;
+    padding-left: 2rem;
 }
 
 @keyframes fadeIn { 
