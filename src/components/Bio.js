@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../stylesheets/bio.css';
 import Image from './Image';
+import About from './About';
 
 export class Bio extends Component {
     constructor(props) {
@@ -13,7 +14,7 @@ export class Bio extends Component {
     }
     render() {
 
-        const style = {
+        const imgStyle = {
             visibility: this.state.visibility
         }
 
@@ -22,19 +23,12 @@ export class Bio extends Component {
                 <div className = "imageGrid">
                     <div className="container"> 
                         <div className="row no-gutters">
-                            <Image src="/imgs/lesotho-travel-site.png" id="img1" alt="Lesotho travel site" style={style} href="#lesotho" />
-                            <Image src="/imgs/color-craze.png" id="img2" alt="Color Craze game site" style={style} href="#color-craze"/>
-                            <Image src="/imgs/music-forum.png" id="img3" alt="Music Forum site" style={style} href="#music-forum"/>
-                            <Image src="/imgs/netflix-watchlist-full.png" id="img4" alt="Netflix watchlist site" style={style} href="#netflix-watchlist"/>
+                            <Image src="/imgs/lesotho-travel-site.png" id="img1" alt="Lesotho travel site" style={imgStyle} href="#lesotho" />
+                            <Image src="/imgs/color-craze.png" id="img2" alt="Color Craze game site" style={imgStyle} href="#color-craze"/>
+                            <Image src="/imgs/music-forum.png" id="img3" alt="Music Forum site" style={imgStyle} href="#music-forum"/>
+                            <Image src="/imgs/netflix-watchlist-full.png" id="img4" alt="Netflix watchlist site" style={imgStyle} href="#netflix-watchlist"/>
                      </div>
-                        <div class="slogan">
-                            <div class= "row">
-                                <p style = {{ visibility: this.state.visibility}}>Build Your Dream
-                                    <span> {"\n"}amy.maraisane@gmail.com</span>
-                                
-                                </p>
-                            </div>
-                        </div>
+                        <About />
                     </div>
                 </div>
             </div> 

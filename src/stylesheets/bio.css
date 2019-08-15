@@ -45,23 +45,6 @@
     animation-delay: .8s;
 }
 
-.slogan {
-    margin-right: 2rem;
-    margin-top: 2rem;
-    font-size: 2rem;
-    font-weight: bold;
-    height: 10rem;
-    display: flex;
-    justify-content: flex-end;
-    animation: fadeIn 1s ease-in;
-}
-
-.slogan span {
-    font-size: 1rem;
-    font-weight: normal;
-    padding-left: 2rem;
-}
-
 @keyframes fadeIn { 
     0% { 
         opacity: 0; 
