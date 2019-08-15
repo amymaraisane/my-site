@@ -26,7 +26,7 @@ export default class Project extends Component{
         <ul>
           {about}
         </ul>
-    </div>
+    </div> 
     );
   }
 }
