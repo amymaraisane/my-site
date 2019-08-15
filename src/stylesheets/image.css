@@ -1,0 +1,36 @@
+.imageGrid img {
+    width: 100%;
+    height: 12rem;
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 2s ease-in;
+}
+
+.imageGrid #img1 {
+    animation-delay: .1s;
+}
+.imageGrid #img2 {
+    animation-delay: .5s;
+}
+.imageGrid #img3 {
+    animation-delay: .3s;
+}
+.imageGrid #img4 {
+    animation-delay: .7s;
+}
+
+
+@keyframes fadeIn { 
+    0% { 
+        opacity: 0; 
+        animation-timing-function: ease-in;
+    }
+    50% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}

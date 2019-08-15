@@ -8,18 +8,20 @@ export default class Project extends Component{
     title: PropTypes.string.isRequired,
     img: PropTypes.string.isRequired,
     alt: PropTypes.string.isRequired,
+    src: PropTypes.string.isRequired,
     about: PropTypes.arrayOf(PropTypes.string).isRequired
 }
 
   render(){
-    const {title, img, alt} = this.props;
+    const {title, img, alt, src} = this.props;
     const about = this.props.about.map((item, index)=>(
       <li key={index}>{item}</li>
     ));
   
     return (
       <div className="demo">
-        <img src= {img} alt={alt} />
+        <a target= "_blank" href = {src}><img src= {img} alt={alt} /></a>
+        
         <h2 className="name" style={{fontFamily: 'Permanent Marker'}}>{title}</h2>
         <ul>
           {about}

@@ -9,7 +9,8 @@ class ProjectList extends Component {
             about: ["Uses Node.js, Express, and MongoDB", "97 Lighthouse Performance Rating"],
             title: "Music Forum",
             img: "/imgs/forum-landingpage.png",
-            alt: "Music Forum Landing Page showing record player"
+            alt: "Music Forum Landing Page showing record player",
+            src: "https://vast-sierra-13998.herokuapp.com/"
             
         }, 
         {
@@ -17,6 +18,7 @@ class ProjectList extends Component {
             title: "Netflix Watchlist",
             img: "/imgs/netflix-watchlist.png",
             alt: "Red Netflix Watchlist logo", 
+            src: "https://pacific-oasis-25527.herokuapp.com/"
         }]
     }
     static propTypes = {
