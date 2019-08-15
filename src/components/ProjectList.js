@@ -10,7 +10,8 @@ class ProjectList extends Component {
             title: "Lesotho Travel Site",
             img: "/imgs/lesotho-travel-site.png",
             alt: "Lesotho countryside on Lesotho travel site",
-            src: "https://amymaraisane.github.io/RGB-Guessing-Game/"
+            src: "https://amymaraisane.github.io/RGB-Guessing-Game/",
+            id: "lesotho"
             
         },
         {
@@ -18,7 +19,8 @@ class ProjectList extends Component {
             title: "Color Craze Game",
             img: "/imgs/color-craze.png",
             alt: "Color Craze matching game site",
-            src: "https://amymaraisane.github.io/RGB-Guessing-Game/"
+            src: "https://amymaraisane.github.io/RGB-Guessing-Game/",
+            id: "color-craze"
             
         },
         {
@@ -26,7 +28,8 @@ class ProjectList extends Component {
             title: "Music Forum",
             img: "/imgs/music-forum.png",
             alt: "Music Forum Landing Page showing record player",
-            src: "https://vast-sierra-13998.herokuapp.com/"
+            src: "https://vast-sierra-13998.herokuapp.com/",
+            id: "music-forum"
             
         }, 
         {
@@ -34,7 +37,8 @@ class ProjectList extends Component {
             title: "Netflix Watchlist",
             img: "/imgs/netflix-watchlist-full.png",
             alt: "Red Netflix Watchlist logo", 
-            src: "https://pacific-oasis-25527.herokuapp.com/"
+            src: "https://pacific-oasis-25527.herokuapp.com/",
+            id: "netflix-watchlist"
         }]
     }
     static propTypes = {
