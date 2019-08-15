@@ -3,7 +3,7 @@ import ProjectList from './ProjectList';
 import '../stylesheets/app.css';
 import Nav from './Nav';
 import Bio from './Bio';
-import Contact from './Contact';
+import Footer from './Footer';
 
 class App extends Component{
 
@@ -14,7 +14,7 @@ class App extends Component{
         <Nav />
         <Bio />
         <ProjectList />
-        <Contact />
+        <Footer />
       </div> 
       );
   }
