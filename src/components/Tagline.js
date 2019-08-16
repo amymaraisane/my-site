@@ -1,12 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import '../stylesheets/tagline.css';
 
 export class Tagline extends Component {
     render() {
 
 
         return (
-            <div className = "row">
-                 <div className={this.props.cols}><h1 style={this.props.style}>{this.props.text}</h1></div>
+            <div id="text" style={this.props.divStyle} className={this.props.cols}>
+                <h1 style={this.props.style}>{this.props.text}</h1>
             </div>
         )
     }

@@ -5,6 +5,8 @@
     height: 100vh;
     width: 100vw;
     margin: 0;
+    align-items: center;
+    justify-content: center;
     border: 1px solid black;
 }
 
@@ -20,6 +22,21 @@
     animation: fadeIn 2s ease-in;
 }
 
+#largeDream {
+    animation: fadeIn 3s ease-in;
+}
+
+@media (max-width: 580px){
+    #largeDream {
+        display: none !important;
+    }
+}
+
+#smallDream {
+    height: 6rem;
+    width: 100%;
+    animation: fadeIn .4s ease-in;
+}
 .imageGrid #img1 {
     animation-delay: .1s;
 }
@@ -32,18 +49,7 @@
 .imageGrid #img4 {
     animation-delay: 1.2s;
 }
-.imageGrid #img5 {
-    animation-delay: 1s;
-}
-.imageGrid #img6 {
-    animation-delay: .9s;
-}
-.imageGrid #img7 {
-    animation-delay: .3s;
-}
-.imageGrid #img8 {
-    animation-delay: .8s;
-}
+
 
 @keyframes fadeIn { 
     0% { 

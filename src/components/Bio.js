@@ -16,13 +16,20 @@ export class Bio extends Component {
     render() {
 
         const imgStyle = {
-            visibility: this.state.visibility
+            visibility: this.state.visibility,
+            border: "1px solid black"
         }
 
         const textStyle = {
-            width: "12rem", 
+            maxWidth: '50%',
             fontWeight: 'bold', 
             fontFamily: `Didact Gothic`,
+        }
+
+        const divStyle = {
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
         }
 
         return (
@@ -30,14 +37,14 @@ export class Bio extends Component {
                 <div className = "imageGrid">
                     <div className="container"> 
                         <div className="row no-gutters">
-                            <Tagline text="Build" cols="col-sm-3 col align-self-center" style={textStyle}/>
+                            <Tagline text="Build" cols="col-sm-3 col align-self" divStyle= {divStyle} style={textStyle}/>
                             <Image src="/imgs/lesotho-travel-site.png" id="img1" alt="Lesotho travel site" style={imgStyle} href="#lesotho" />
-                            <Tagline text="DREAM" cols="col-sm-6 col d-none d-sm-block align-self-center" style={textStyle}/>
+                            <div id="largeDream" style= {divStyle} className="col-sm-6"> <h1 style={this.props.textStyle}>DREAM</h1></div>
                             <Image src="/imgs/color-craze.png" id="img2" alt="Color Craze game site" style={imgStyle} href="#color-craze"/>
-                            <Tagline text="Your" cols="col-sm-3 col align-self-center" style={textStyle}/>
+                            <Tagline text="Your" cols="col-sm-3" divStyle= {divStyle} style={textStyle}/>
                             <Image src="/imgs/music-forum.png" id="img3" alt="Music Forum site" style={imgStyle} href="#music-forum"/>
                             <Image src="/imgs/netflix-watchlist-full.png" id="img4" alt="Netflix watchlist site" style={imgStyle} href="#netflix-watchlist"/>
-                            <h1 className="d-sm-none" style={{width: "12rem", fontFamily: 'Didact Gothic'}} >Dream</h1>
+                            <div id="smallDream" className="d-sm-none" style= {divStyle}> <h1 style={textStyle} >Dream</h1></div> 
                      </div>
                         <About />
                     </div>
