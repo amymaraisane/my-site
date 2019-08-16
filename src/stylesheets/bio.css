@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     border: 1px solid black;
+    padding-bottom: 6rem;
 }
 
 .imageGrid {

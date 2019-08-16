@@ -6,7 +6,7 @@ export class About extends Component {
         return (
             <div className="container">
                 <div className="about">
-                    <div className= "row">
+                    <div className= "row flex">
                         <h3>About</h3>
                         <p>
                             After starting my career in employee training and development at a staffing company, 
@@ -14,7 +14,8 @@ export class About extends Component {
                             in a bootcamp, I decided to teach myself. 550 hours of coding later, I am in love. There is 
                             nothing so exciting as creating something new from the ground up. 
                         </p>
-                        <h4 className="text-md-right">Ready to Build Your Dream?</h4>
+                        <h4>Ready to Build Your Dream?<button type="button" class="btn btn-lg btn-info">Contact</button></h4>
+                        
                 </div>
             </div>
         </div>
