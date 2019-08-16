@@ -7,7 +7,8 @@ export class About extends Component {
             <div className="container">
                 <div className="about">
                     <div className= "row">
-                        <p className="text-justify">
+                        <h3>About</h3>
+                        <p>
                             After starting my career in employee training and development at a staffing company, 
                             I soon realized it was time to take my own skills to the next level. Rather than enrolling
                             in a bootcamp, I decided to teach myself. 550 hours of coding later, I am in love. There is 

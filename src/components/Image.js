@@ -12,7 +12,7 @@ export class Image extends Component {
     render() {
 
         return (
-            <div className="col-sm-3"> <a href={this.props.href}><img id={this.props.id} alt={this.props.alt} src={this.props.src} style={this.props.style}></img></a></div>
+            <div className="col-sm-3 d-none d-sm-block"> <a href={this.props.href}><img id={this.props.id} alt={this.props.alt} src={this.props.src} style={this.props.style}></img></a></div>
         )
     }
 }

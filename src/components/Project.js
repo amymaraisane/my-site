@@ -23,7 +23,7 @@ export default class Project extends Component{
       <div className="demo">
         <a target= "_blank" href = {src}><img src= {img} alt={alt} id={id}/></a>
         
-        <h2 className="name" style={{fontFamily: 'Permanent Marker'}}>{title}</h2>
+        <h2 className="name">{title}</h2>
         <ul>
           {about}
         </ul>
