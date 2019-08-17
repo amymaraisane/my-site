@@ -4,6 +4,9 @@ import '../stylesheets/projectList.css';
 import PropTypes from 'prop-types';
 
 class ProjectList extends Component {
+
+    static here = JSON.stringify(<a href="https://medium.com/@amy.kaschke/how-i-built-my-first-api-d6e6fdc4655e" target="_blank">here</a>)
+
     static defaultProps = {
         projects: [{
             about: ["HTML/CSS Landing page built with Bootrap 3 and updated to Bootstrap 4", "Displays modal popup window on page load"],
@@ -15,7 +18,7 @@ class ProjectList extends Component {
             
         },
         {
-            about: ["My first vanilla JavaScript project", "RGB color matching game with click listeners and easy/hard modes"],
+            about: ["RGB color matching game with easy/hard modes", "My first vanilla JS project with mouse events",],
             title: "Color Craze Game",
             img: "/imgs/color-craze.png",
             alt: "Color Craze matching game site",
@@ -24,7 +27,7 @@ class ProjectList extends Component {
             
         },
         {
-            about: ["Uses Node.js, Express, and MongoDB", "97 Lighthouse Performance Rating"],
+            about: ["Node.js, Express, and MongoDB, iTunes API", "Users can login, post albums, and leave comments"],
             title: "Music Forum",
             img: "/imgs/music-forum.png",
             alt: "Music Forum Landing Page showing record player",
@@ -33,7 +36,7 @@ class ProjectList extends Component {
             
         }, 
         {
-            about: ["Node.js, Express, and MongoDB", "Custom JSON API and RESTful routing"],
+            about: ["Node.js, Express, and MongoDB", "Check out my Medium blog post on how I built the custom API"],
             title: "Netflix Watchlist",
             img: "/imgs/netflix-watchlist-full.png",
             alt: "Red Netflix Watchlist logo", 
@@ -41,6 +44,7 @@ class ProjectList extends Component {
             id: "netflix-watchlist"
         }]
     }
+    
     static propTypes = {
         projects: PropTypes.arrayOf(PropTypes.object)
     }

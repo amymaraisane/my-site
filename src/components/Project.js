@@ -24,7 +24,7 @@ export default class Project extends Component{
         <a target= "_blank" href = {src}><img src= {img} alt={alt} id={id}/></a>
         
         <h2 className="name">{title}</h2>
-        <ul>
+        <ul id="projectUL">
           {about}
         </ul>
     </div> 
