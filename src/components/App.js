@@ -9,7 +9,6 @@ import Footer from './Footer';
 class App extends Component{
 
   render() {
-    //css instructions added as a variable pointing to a style object written in jsx!
     return (
       <div className= "projectCollection">
         <Nav />
@@ -23,5 +22,3 @@ class App extends Component{
 
 export default App;
 
-//when an array passed as a prop to a component it needs to be inside a javascript object
-//if part

@@ -7,7 +7,7 @@ class Nav extends Component {
         return (
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <a id="name" className="navbar-brand" href="#">Amy Maraisane</a>
-
+ 
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -31,5 +31,3 @@ class Nav extends Component {
 
 export default Nav
 
-//because this.state.color is already inside double braces it does not need add'l
-//setState is asynchronous, callback code triggers/runs render method and updates DOM!
