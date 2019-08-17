@@ -16,7 +16,7 @@ export default class Project extends Component{
   render(){
     const {title, img, alt, src, id} = this.props;
     const about = this.props.about.map((item, index)=>(
-      <li key={index}>{item}</li>
+      <li id="projectLI" key={index}>{item}</li>
     ));
   
     return (

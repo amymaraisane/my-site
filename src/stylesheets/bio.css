@@ -12,7 +12,8 @@
 }
 
 .imageGrid {
-    margin: 6rem auto;
+    margin: 0 auto;
+    padding-top: 3rem;
 }
 
 .imageGrid img {
