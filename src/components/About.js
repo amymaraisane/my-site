@@ -15,7 +15,7 @@ export class About extends Component {
                             nothing so exciting as creating something new from the ground up. 
                         </p>
                         <h4>Ready to Build Your Dream?<a href="#contact"><button type="button" class="btn btn-lg btn-info">Contact</button></a></h4>
-                    </div>
+                    </div> 
                 </div>
             </div>
         )

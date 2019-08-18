@@ -15,7 +15,7 @@ export class Contact extends Component {
                         <div className="col-xs-12"><h1>Get In Touch</h1></div>
                         <div className="row flex" style={{justifyContent: 'center', alignItems: 'center'}}>
                             <div className="row flex col-sm-4" style={{flexDirection: 'column', textAlign: 'right', alignItems: 'center'}}>
-                                <div id="social"><a style={{color: 'black'}} href="https://www.linkedin.com/in/amymaraisane/">LinkedIn </a><span> * </span><a style={{color: 'black'}} href="https://github.com/amymaraisane">  Github  </a><span> * </span><a style={{color: 'black'}} href="https://medium.com/@amy_maraisane" target="_blank">  Medium</a></div>
+                                <div id="social"><a style={{color: 'black'}} href="https://www.linkedin.com/in/amymaraisane/">LinkedIn </a><span> * </span><a style={{color: 'black'}} href="https://github.com/amymaraisane">  Github  </a><span> * </span><a style={{color: 'black'}} href="https://medium.com/@amymaraisane" target="_blank">  Medium</a></div>
                             </div>
                             <div className="row flex col-sm-4" style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                                 <div>
