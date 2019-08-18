@@ -9,11 +9,11 @@ class ProjectList extends Component {
 
     static defaultProps = {
         projects: [{
-            about: ["HTML/CSS Landing page built with Bootrap 3 and updated to Bootstrap 4", "Displays modal popup window on page load"],
+            about: ["HTML/CSS Landing page built with Bootrap 3, updated to Bootstrap 4", "Displays modal popup window on page load"],
             title: "Lesotho Travel Site",
             img: "/imgs/lesotho-travel-site.png",
             alt: "Lesotho countryside on Lesotho travel site",
-            src: "https://amymaraisane.github.io/RGB-Guessing-Game/",
+            src: "https://amymaraisane.github.io/lesotho-travel/",
             id: "lesotho"
             
         },
@@ -22,7 +22,7 @@ class ProjectList extends Component {
             title: "Color Craze Game",
             img: "/imgs/color-craze.png",
             alt: "Color Craze matching game site",
-            src: "https://amymaraisane.github.io/RGB-Guessing-Game/",
+            src: "https://amymaraisane.github.io/RGB-guessing-game/",
             id: "color-craze"
             
         },
@@ -55,7 +55,7 @@ class ProjectList extends Component {
         ));
         return (
             <div id="project-list">
-                {projects};
+                {projects}
             </div>
         )
     }

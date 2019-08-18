@@ -14,10 +14,10 @@ export default class Project extends Component{
 }
 
   render(){
-    const {title, img, alt, src, id} = this.props;
+    const {title, img, alt, src, id} = this.props
     const about = this.props.about.map((item, index)=>(
       <li id="projectLI" key={index}>{item}</li>
-    ));
+    ))
   
     return (
       <div className="demo">
@@ -28,7 +28,7 @@ export default class Project extends Component{
           {about}
         </ul>
     </div> 
-    );
+    )
   }
 }
 

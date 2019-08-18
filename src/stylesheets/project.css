@@ -1,6 +1,6 @@
 .name {
     font-family: 'Didact Gothic', sans-serif;
-    font-size: 2em;
+    font-size: 1.8rem; 
     margin: .25em; 
   }
 .demo {
@@ -32,6 +32,7 @@
 
 #projectUL {
     font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.4rem;
     margin: 0 auto;
     margin-bottom: 2rem;
     max-width: 400px;
