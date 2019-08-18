@@ -45,10 +45,10 @@ export class Bio extends Component {
                             <Image src="/imgs/music-forum.png" id="img3" alt="Music Forum site" style={imgStyle} href="#music-forum"/>
                             <Image src="/imgs/netflix-watchlist-full.png" id="img4" alt="Netflix watchlist site" style={imgStyle} href="#netflix-watchlist"/>
                             <div id="smallDream" className="d-sm-none" style= {divStyle}> <h1 style={textStyle} >Dream</h1></div> 
-                     </div>
-                        <About />
+                        </div>
                     </div>
                 </div>
+                <About />
             </div> 
         )
     }
