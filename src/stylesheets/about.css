@@ -15,10 +15,12 @@ h3 {
 
 p {
     font-size: 1.4rem;
+    padding-bottom: 0;
 }
 
 h4 {
     margin: 0 auto;
+    margin-top: 1rem;
     font-weight: bold;
 }
 
