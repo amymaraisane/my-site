@@ -5,6 +5,7 @@
     flex-direction: column;
     height: 20rem;
     width: 100%;
+    overflow-x: hidden;
 }
 
 #graffitiPic {
