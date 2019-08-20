@@ -15,13 +15,16 @@
 
  #contact h1 {
      font-size: 3rem;
- }
+ }ç
 
  #contact img {
      border: 2px solid black;
  }
 
  @media (max-width: 580px){
+    #contact {
+        height: 25rem;
+    }    
     #social {
         margin-bottom: 1.5rem;
     }

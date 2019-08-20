@@ -11,7 +11,7 @@ class ProjectList extends Component {
         projects: [{
             about: ["HTML/CSS Landing page built with Bootrap 3, updated to Bootstrap 4", "Displays modal popup window on page load"],
             title: "Lesotho Travel Site",
-            img: "/imgs/lesotho-travel-site.png",
+            img: "/imgs/lesotho-4.png",
             alt: "Lesotho countryside on Lesotho travel site",
             src: "https://amymaraisane.github.io/lesotho-travel/",
             id: "lesotho"
