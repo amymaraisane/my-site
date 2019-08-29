@@ -31,7 +31,7 @@ class ProjectList extends Component {
             title: "Music Forum",
             img: "/imgs/music-forum.png",
             alt: "Music Forum Landing Page showing record player",
-            src: "https://vast-sierra-13998.herokuapp.com/",
+            src: "https://music-album-forum.herokuapp.com/",
             id: "music-forum"
             
         }, 
@@ -40,7 +40,7 @@ class ProjectList extends Component {
             title: "Netflix Watchlist",
             img: "/imgs/netflix-watchlist-full.png",
             alt: "Red Netflix Watchlist logo", 
-            src: "https://pacific-oasis-25527.herokuapp.com/",
+            src: "https://netflix-watchlist.herokuapp.com/",
             id: "netflix-watchlist"
         }]
     }
