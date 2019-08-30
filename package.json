@@ -5,6 +5,8 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "eslint-utils": "^1.4.2",
+    "imagemin": "^7.0.0",
+    "imagemin-webp": "^5.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

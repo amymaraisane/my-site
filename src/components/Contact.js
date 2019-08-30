@@ -19,7 +19,7 @@ export class Contact extends Component {
                             </div>
                             <div className="row flex col-sm-4" style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                                 <div>
-                                    <img id="graffitiPic" src="/imgs/linkedIn7-19.jpeg" alt="Amy standing by graffiti wall"></img>
+                                    <img id="graffitiPic" src="/imgs/linkedIn7-19.png" alt="Amy standing by graffiti wall"></img>
                                     <div><h5 style={{margin: '0 auto', textAlign: 'center'}}>Atlanta, GA</h5 ></div> 
                                 </div>
                             </div>
