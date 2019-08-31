@@ -38,7 +38,7 @@ export class Bio extends Component {
                     <div className="container"> 
                         <div className="row no-gutters">
                             <Tagline text="Build" cols="col-sm-3 col align-self" divStyle= {divStyle} style={textStyle}/>
-                            <Image src="/imgs/lesotho-4.png" id="img1" alt="Lesotho travel site" style={imgStyle} href="#lesotho" />
+                            <Image src="/imgs/lesotho-400w.jpg" id="img1" alt="Lesotho travel site" style={imgStyle} href="#lesotho" />
                             <div id="largeDream" style= {divStyle} className="col-sm-6"> <h1 style={this.props.textStyle}>DREAM</h1></div>
                             <Image src="/imgs/color-craze.png" id="img2" alt="Color Craze game site" style={imgStyle} href="#color-craze"/>
                             <Tagline text="Your" cols="col-sm-3" divStyle= {divStyle} style={textStyle}/>

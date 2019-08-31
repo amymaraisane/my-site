@@ -21,7 +21,7 @@ export default class Project extends Component{
   
     return (
       <div className="demo">
-        <a target= "_blank" href = {src}><img src= {img} alt={alt} id={id}/></a>
+        <a target= "_blank" href = {src}><img srcSet= {img} alt={alt} id={id}/></a>
         
         <h2 className="name">{title}</h2>
         <ul id="projectUL">

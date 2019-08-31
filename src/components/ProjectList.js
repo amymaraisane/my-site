@@ -11,13 +11,13 @@ class ProjectList extends Component {
         projects: [{
             about: ["HTML/CSS Landing page built with Bootrap 3, updated to Bootstrap 4", "Displays modal popup window on page load"],
             title: "Lesotho Travel Site",
-            img: "/imgs/lesotho-4.png",
+            img: "/imgs/lesotho-580w.jpg",
             alt: "Lesotho countryside on Lesotho travel site",
             src: "https://amymaraisane.github.io/lesotho-travel/",
             id: "lesotho"
             
         },
-        {
+        { 
             about: ["RGB color matching game with easy/hard modes", "My first vanilla JS project with mouse events",],
             title: "Color Craze Game",
             img: "/imgs/color-craze.png",
