@@ -20,7 +20,7 @@ class ProjectList extends Component {
         { 
             about: ["RGB color matching game with easy/hard modes", "My first vanilla JS project with mouse events",],
             title: "Color Craze Game",
-            img: "/imgs/color-craze.png",
+            img: "/imgs/color-craze-580w93q.jpg",
             alt: "Color Craze matching game site",
             src: "https://amymaraisane.github.io/RGB-guessing-game/",
             id: "color-craze"
