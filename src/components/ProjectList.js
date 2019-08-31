@@ -38,7 +38,7 @@ class ProjectList extends Component {
         {
             about: ["Node.js, Express, and MongoDB", "Check out my Medium blog post on how I built the custom API"],
             title: "Netflix Watchlist",
-            img: "/imgs/netflix-watchlist-full.png",
+            img: "/imgs/netflix-watchlist-full-580w93q.jpg",
             alt: "Red Netflix Watchlist logo", 
             src: "https://netflix-watchlist.herokuapp.com/",
             id: "netflix-watchlist"
