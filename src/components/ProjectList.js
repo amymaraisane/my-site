@@ -29,7 +29,7 @@ class ProjectList extends Component {
         {
             about: ["Node.js, Express, and MongoDB, iTunes API", "Users can login, post albums, and leave comments"],
             title: "Music Forum",
-            img: "/imgs/music-forum.png",
+            img: "/imgs/music-forum-580w93q.jpg",
             alt: "Music Forum albums page",
             src: "https://music-album-forum.herokuapp.com/",
             id: "music-forum"
