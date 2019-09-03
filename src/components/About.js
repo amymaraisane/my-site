@@ -10,9 +10,9 @@ export class About extends Component {
                         <h3>About</h3>
                         <p>
                             After starting my career in employee training and development at a staffing company, 
-                            I soon realized it was time to take my own skills to the next level. Rather than enrolling
-                            in a bootcamp, I decided to teach myself. 550 hours of coding later, I am in love. There is 
-                            nothing so exciting as creating something new from the ground up. 
+                            I soon realized it was time for me to level up and pursue my interest in web development. Rather than enrolling
+                            in a bootcamp, I decided to design my own. 600 hours of Udemy courses, pair programming, podcasts, and 
+                            community-based learning later, I know I can learn anything. Let's talk about how I can help you build your dream.
                         </p>
                         <h4>Ready to Build Your Dream?<a href="#contact"><button type="button" class="btn btn-lg btn-info">Contact</button></a></h4>
                     </div> 

@@ -16,6 +16,7 @@ export class Contact extends Component {
                         <div className="row flex" style={{justifyContent: 'center', alignItems: 'center'}}>
                             <div className="row flex col-sm-4" style={{flexDirection: 'column', textAlign: 'right', alignItems: 'center'}}>
                                 <div id="social"><a style={{color: 'black'}} href="https://www.linkedin.com/in/amymaraisane/">LinkedIn </a><span> * </span><a style={{color: 'black'}} href="https://github.com/amymaraisane">  Github  </a><span> * </span><a style={{color: 'black'}} href="https://medium.com/@amymaraisane" target="_blank">  Medium</a></div>
+                                <div style={{fontSize: "1rem"}}>Availalbe for contract work</div>
                             </div>
                             <div className="row flex col-sm-4" style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                                 <div>
