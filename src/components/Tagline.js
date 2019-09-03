@@ -6,7 +6,7 @@ export class Tagline extends Component {
 
 
         return (
-            <div id="text" style={this.props.divStyle} className={this.props.cols}>
+            <div className="text" style={this.props.divStyle} className={this.props.cols}>
                 <h1 style={this.props.style}>{this.props.text}</h1>
             </div>
         )

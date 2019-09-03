@@ -16,7 +16,7 @@ export default class Project extends Component{
   render(){
     const {title, img, alt, src, id} = this.props
     const about = this.props.about.map((item, index)=>(
-      <li id="projectLI" key={index}>{item}</li>
+      <li className="projectLI" key={index}>{item}</li>
     ))
   
     return (
@@ -24,7 +24,7 @@ export default class Project extends Component{
         <a target= "_blank" href = {src}><img srcSet= {img} alt={alt} id={id}/></a>
         
         <h2 className="name">{title}</h2>
-        <ul id="projectUL">
+        <ul className="projectUL">
           {about}
         </ul>
     </div> 

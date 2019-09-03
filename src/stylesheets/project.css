@@ -27,7 +27,7 @@
     margin: .25em; 
 }
 
-#projectUL {
+.projectUL {
     font-family: 'Didact Gothic', sans-serif;
     font-size: 1.4rem;
     margin: 0 auto;
@@ -36,7 +36,7 @@
     padding: 0;
 }
 
-#projectLI {
+.projectLI {
     max-width: 342px;
 }
 
@@ -44,7 +44,7 @@
     .demo {
         width: 100%
     }
-    #projectLI {
+    .projectLI {
         margin-left: 1rem;
     }
 }
