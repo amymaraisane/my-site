@@ -14,7 +14,7 @@ export class About extends Component {
                             in a bootcamp, I decided to design my own. 600 hours of Udemy courses, pair programming, podcasts, and 
                             community-based learning later, I know I can learn anything. Let's talk about how I can help you build your dream.
                         </p>
-                        <h4>Ready to Build Your Dream?<a href="#contact"><button type="button" class="btn btn-lg btn-info">Contact</button></a></h4>
+                        <h4>Ready to Build Your Dream?<a href="#contact"><button type="button" className="btn btn-lg btn-info">Contact</button></a></h4>
                     </div> 
                 </div>
             </div>

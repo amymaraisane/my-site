@@ -11,7 +11,7 @@ class ProjectList extends Component {
         projects: [{
             about: ["HTML/CSS Landing page built with Bootrap 3, updated to Bootstrap 4", "Displays modal popup window on page load"],
             title: "Lesotho Travel Site",
-            img: "/imgs/lesotho-580w.jpg",
+            img: "/imgs/lesotho-580w56kb.jpg",
             alt: "Lesotho countryside on Lesotho travel site",
             src: "https://amymaraisane.github.io/lesotho-travel/",
             id: "lesotho"
@@ -20,7 +20,7 @@ class ProjectList extends Component {
         { 
             about: ["RGB color matching game with easy/hard modes", "My first vanilla JS project with mouse events",],
             title: "Color Craze Game",
-            img: "/imgs/color-craze-580w93q.jpg",
+            img: "/imgs/color-craze-580w90kb.jpg",
             alt: "Color Craze matching game site",
             src: "https://amymaraisane.github.io/RGB-guessing-game/",
             id: "color-craze"
@@ -29,7 +29,7 @@ class ProjectList extends Component {
         {
             about: ["Node.js, Express, and MongoDB, iTunes API", "Users can login, post albums, and leave comments"],
             title: "Music Forum",
-            img: "/imgs/music-forum-580w93q.jpg",
+            img: "/imgs/music-forum-580w44kb.jpg",
             alt: "Music Forum albums page",
             src: "https://music-album-forum.herokuapp.com/",
             id: "music-forum"
@@ -38,7 +38,7 @@ class ProjectList extends Component {
         {
             about: ["Node.js, Express, and MongoDB", "Check out my Medium blog post on how I built the custom API"],
             title: "Netflix Watchlist",
-            img: "/imgs/netflix-watchlist-full-580w93q.jpg",
+            img: "/imgs/netflix-watchlist-full-580w19kb.jpg",
             alt: "Red Netflix Watchlist logo", 
             src: "https://netflix-watchlist.herokuapp.com/",
             id: "netflix-watchlist"
