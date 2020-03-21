@@ -1,8 +1,27 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './stylesheets/index.css';
-import App from './components/App';
 import * as serviceWorker from './serviceWorker';
+import Nav from './components/Nav';
+
+const Home = lazy(() => import('./components/Home'));
+//const Projects = lazy(() => import('./routes/Projects'));
+
+
+
+const App = () => (
+    <Router>
+        <Suspense fallback={<div>Loading...</div>}>
+            <div>
+                <Nav></Nav>
+                <Switch>
+                    <Route exact path="/" component={Home}/>
+                </Switch>
+            </div>    
+        </Suspense>
+    </Router>
+)
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
