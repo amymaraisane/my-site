@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import './stylesheets/index.css';
 import * as serviceWorker from './serviceWorker';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 const Home = lazy(() => import('./components/Home'));
 //const Projects = lazy(() => import('./routes/Projects'));
@@ -18,6 +19,7 @@ const App = () => (
                 <Switch>
                     <Route exact path="/" component={Home}/>
                 </Switch>
+                <Footer></Footer>
             </div>    
         </Suspense>
     </Router>

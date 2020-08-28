@@ -1,0 +1,35 @@
+#contact {
+    font-family: 'Didact Gothic', sans-serif;
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#profilePic {
+    width: 10rem;
+    height: 10rem;
+}
+
+ #contact h1 {
+     font-size: 3rem;
+ }
+
+ #contact img {
+     border: 2px solid black;
+ }
+
+ @media (max-width: 580px){
+    #contact {
+        height: 25rem;
+    }    
+    #social {
+        margin-bottom: 1.5rem;
+    }
+    h1 {
+        padding-left: .5rem;
+    }
+
+ }
