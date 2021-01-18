@@ -12,7 +12,7 @@ export class Footer extends Component {
             <div id="contact">
                 <div className="container">
                     <div className="row flex" style={{flexDirection: 'column'}}>
-                        <div className="col-xs-12"><h1>Get In Touch</h1></div>
+                        <div className="col-xs-12"><h1>Contact</h1></div>
                         <div className="row flex" style={{justifyContent: 'center', alignItems: 'center'}}>
                             <div className="row flex col-sm-4" style={{flexDirection: 'column', textAlign: 'right', alignItems: 'center'}}>
                                 <div id="social"><a style={{color: 'black'}} href="https://www.linkedin.com/in/amymaraisane/">LinkedIn </a><span> * </span><a style={{color: 'black'}} href="https://github.com/amymaraisane">  Github  </a><span> * </span><a style={{color: 'black'}} href="https://medium.com/@amymaraisane" target="_blank">  Medium</a></div>
